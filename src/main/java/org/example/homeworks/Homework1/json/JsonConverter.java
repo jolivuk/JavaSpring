@@ -17,46 +17,61 @@ public class JsonConverter {
 
     }
 
+    //    public static <T> String toJson(T obj) {
+//        Map<String, ?> fieldNameValue =
+//                Arrays.stream(obj.getClass().getDeclaredFields())
+//                        .peek(field -> field.setAccessible(true))
+//                        .collect(Collectors.toMap(field -> field.getName(), field -> {
+//                            try {
+//                                return field.get(obj);
+//                            } catch (IllegalAccessException e) {
+//                                throw new RuntimeException(e);
+//                            }
+//                        }));
+////        String sb = "{" + fieldNameValue.entrySet().stream()
+////                .map(pair -> ("\"" + pair.getKey() + "\": " + prepareValue(pair.getValue())))
+////                .collect(Collectors.joining(",")) +
+////                //  fieldNameValue.forEach((k, v) -> sb.append("\"" + k + "\": " + prepareValue(v)));
+////                "}";
+//
+//
+//
+//
+//        return jsonString;
+//    }
     public static <T> String toJson(T obj) {
+        // Создаем отображение имен полей и их значений
         Map<String, ?> fieldNameValue =
                 Arrays.stream(obj.getClass().getDeclaredFields())
                         .peek(field -> field.setAccessible(true))
-                        .collect(Collectors.toMap(field -> field.getName(), field -> {
-                            try {
-                                return field.get(obj);
-                            } catch (IllegalAccessException e) {
-                                throw new RuntimeException(e);
-                            }
-                        }));
-        String sb = "{" + fieldNameValue.entrySet().stream()
-                .map(pair -> ("\"" + pair.getKey() + "\": " + prepareValue(pair.getValue())))
-                .collect(Collectors.joining(",")) +
-                //  fieldNameValue.forEach((k, v) -> sb.append("\"" + k + "\": " + prepareValue(v)));
+                        .collect(Collectors.toMap(
+                                field -> field.getName(),
+                                field -> {
+                                    try {
+                                        return field.get(obj);
+                                    } catch (IllegalAccessException e) {
+                                        throw new RuntimeException(e);
+                                    }
+                                }
+                        ));
+        String jsonString = "{" + fieldNameValue.entrySet().stream()
+                .map(pair -> "\"" + pair.getKey() + "\": " + prepareValue(pair.getValue()))
+                .collect(Collectors.joining(", ")) +
                 "}";
-
-
-        return sb;
+        return jsonString;
     }
 
-    private static <V> String prepareValue(V value) {
-        Class<?> clazz = value.getClass();
+
+    private static String prepareValue(Object value) {
         if (value == null) {
             return "null";
-        }
-
-        if (value instanceof Collection<?>) {
-            return "[" + ((Collection<?>) value).stream()
-                    .map(e -> prepareValue(e))
-                    .collect(Collectors.joining(", ")) + "]";
-        }
-
-
-        return switch (clazz.getSimpleName()) {
-            case STRING_TYPE -> "\"" + value + "\": ";
-            case INTEGER_TYPE, BOOLEAN_TYPE, DOUBLE_TYPE, FLOAT_TYPE, LONG_TYPE, CHAR_TYPE, BYTE_TYPE ->
-                    value.toString();
-            case LOCAL_DATE_TYPE -> ((LocalDate) value).format(FORMATTER);
-            default -> throw new RuntimeException("Unknown type");
-        };
+        } else if (value instanceof String) {
+            return "\"" + value + "\"";
+        } else if (value instanceof Number || value instanceof Boolean) {
+            return value.toString();
+        } else if (value instanceof Object){
+            return toJson(value);
+        } else throw new IllegalArgumentException("Error");
     }
+
 }

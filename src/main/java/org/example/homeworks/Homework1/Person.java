@@ -7,6 +7,7 @@ public class Person {
     private final String surname;
     private final int age;
     private final boolean isMarried;
+    private Cat cat;
 
 
     public Person( String name, String surname, int age, boolean isMarried) {
@@ -14,6 +15,14 @@ public class Person {
         this.age = age;
         this.surname = surname;
         this.name = name;
+    }
+
+    public Person(String name, String surname, int age, boolean isMarried, Cat cat) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.isMarried = isMarried;
+        this.cat = cat;
     }
 
     @Override

@@ -25,14 +25,14 @@ import static org.example.homeworks.Homework1.ConstantsTypes.*;
 public class Main {
     public static void main(String[] args) {
 
-        Person person = new Person("Ivan", "Ivanov", 35, false);
+        Person person = new Person("Ivan", "Ivanov", 35, false, new Cat("Barsik", 5));
         System.out.println(person);
 
         // Получение всех методов
         Class<?> cls = Person.class;
         List<Method> methodsList = List.of(cls.getDeclaredMethods());
         List<String> actualMethodsList = methodsList.stream().map(m -> m.getName()).toList();
-        System.out.println(actualMethodsList);
+        System.out.println("Methods:" + actualMethodsList);
 
         Scanner scanner = new Scanner(System.in);
         String input;
@@ -45,10 +45,10 @@ public class Main {
             try {
                 Field changeField = person.getClass().getDeclaredField(input);
                 System.out.println("Field '" + input + "' exists. Set new value ");
-                
+
                 // Получение нового значения поля
                 String newValue = scanner.nextLine();
-                             
+
                 // Установка значения поля
 
                 changeField.setAccessible(true); // делаем поле неприватным
@@ -60,13 +60,13 @@ public class Main {
                         case STRING_TYPE:
                             changeField.set(person, newValue);
                             break;
-                        case INTEGER_TYPE,INT_TYPE:
+                        case INTEGER_TYPE, INT_TYPE:
                             changeField.set(person, Integer.parseInt(newValue));
                             break;
                         case BOOLEAN_TYPE, BOOL_TYPE:
                             changeField.set(person, Boolean.parseBoolean(newValue));
                             break;
-                        case DOUBLE_TYPE,DOUB_TYPE:
+                        case DOUBLE_TYPE, DOUB_TYPE:
                             changeField.set(person, Double.parseDouble(newValue));
                             break;
                         default:
@@ -83,8 +83,9 @@ public class Main {
                 try {
                     Method runMethod = person.getClass().getDeclaredMethod(input);
 
-
-                    runMethod.invoke(person);
+                    if (runMethod.getReturnType().toString().equals("void"))
+                        runMethod.invoke(person);
+                    else System.out.println(runMethod.invoke(person));
 
                 } catch (NoSuchMethodException en) {
                     System.out.println("Fields or methods with name '" + input + "' does not exist");

@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework1 is added">
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/ConstantsTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/json/JsonConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework2/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Cat.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessons/lesson_20240109/Color.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessons/lesson_20240109/ColorCash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/json/JsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/json/JsonConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/33659/IdeaProjects/testPracticeJava"
+    "last_opened_file_path": "C:/Users/33659/IdeaProjects/testPracticeJava",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725122109765</updated>
     </task>
+    <task id="LOCAL-00001" summary="Homework1 is added">
+      <option name="closed" value="true" />
+      <created>1725555484182</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725555484182</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Homework1 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework1 is added" />
   </component>
 </project>
