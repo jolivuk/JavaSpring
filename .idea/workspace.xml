@@ -8,9 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework2 was added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/DieselEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/DieselEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ExrCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ExrCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/ElectricEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/ElectricEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/GasEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/GasEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,34 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Main1.executor": "Run",
-    "Application.org.example.homeworks.Homework2.task1.Main.executor": "Run",
-    "Application.org.example.homeworks.homework4.task1.tools.Main.executor": "Run",
-    "Application.org.example.homeworks.homework4.task2.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/33659/IdeaProjects/JAVAEXTRA_Homeworks",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homeworks.Homework2.task1.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homeworks.homework4.task1.tools.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.example.homeworks.homework4.task2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/33659/IdeaProjects/JAVAEXTRA_Homeworks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.homeworks.homework4.task2.tools.cars" />
       <recent name="org.example.homeworks.Homework2" />
       <recent name="org.example.homeworks.Homework1.json" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.example.homeworks.homework4.task2.Main">
+  <component name="RunManager" selected="Application.org.example.homeworks.homework3.task1.tools.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework1.Main" />
       <module name="JAVAEXTRA_Homeworks" />
@@ -78,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.homeworks.homework4.task1.tools.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework4.task1.tools.Main" />
+    <configuration name="org.example.homeworks.homework3.task1.tools.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework3.task1.tools.Main" />
       <module name="JAVAEXTRA_Homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homeworks.homework4.task1.tools.*" />
+          <option name="PATTERN" value="org.example.homeworks.homework3.task1.tools.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.homeworks.homework4.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework4.task2.Main" />
+    <configuration name="org.example.homeworks.homework3.task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework3.task2.Main" />
       <module name="JAVAEXTRA_Homeworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.homeworks.homework4.task2.*" />
+          <option name="PATTERN" value="org.example.homeworks.homework3.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.example.homeworks.homework4.task2.Main" />
-        <item itemvalue="Application.org.example.homeworks.homework4.task1.tools.Main" />
+        <item itemvalue="Application.org.example.homeworks.homework3.task1.tools.Main" />
+        <item itemvalue="Application.org.example.homeworks.homework3.task2.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -128,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725122109765</updated>
-      <workItem from="1726151237781" duration="6514000" />
+      <workItem from="1726151237781" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1 is added">
       <option name="closed" value="true" />
@@ -154,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726158442296</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework2 was added">
+      <option name="closed" value="true" />
+      <created>1726158898607</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726158898607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
