@@ -1,6 +1,4 @@
-package org.example.homeworks.Homework1;
-
-import org.example.homeworks.Homework1.json.JsonConverter;
+package org.example.homeworks.homework1;
 
 public class Person {
     private final String name;

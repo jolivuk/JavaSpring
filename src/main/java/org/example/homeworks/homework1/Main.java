@@ -1,6 +1,6 @@
-package org.example.homeworks.Homework1;
+package org.example.homeworks.homework1;
 
-import org.example.homeworks.Homework1.json.JsonConverter;
+import org.example.homeworks.homework1.json.JsonConverter;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import static org.example.homeworks.Homework1.ConstantsTypes.*;
+import static org.example.homeworks.homework1.ConstantsTypes.*;
 
 /*
 1 Создайте класс с 10 методами и 4 приватными полями.

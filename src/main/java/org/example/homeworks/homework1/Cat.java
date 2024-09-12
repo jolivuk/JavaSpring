@@ -1,4 +1,4 @@
-package org.example.homeworks.Homework1;public class Cat {
+package org.example.homeworks.homework1;public class Cat {
     String name;
     int age;
 

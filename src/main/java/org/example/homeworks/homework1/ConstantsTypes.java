@@ -1,4 +1,4 @@
-package org.example.homeworks.Homework1;
+package org.example.homeworks.homework1;
 
 import java.time.format.DateTimeFormatter;
 

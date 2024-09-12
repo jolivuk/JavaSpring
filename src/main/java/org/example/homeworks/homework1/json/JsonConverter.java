@@ -1,14 +1,8 @@
-package org.example.homeworks.Homework1.json;
+package org.example.homeworks.homework1.json;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
-
-import static org.example.homeworks.Homework1.ConstantsTypes.*;
 
 public class JsonConverter {
 
