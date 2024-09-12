@@ -1,5 +1,6 @@
 package org.example.homeworks.homework4.task2;
 
+import org.example.homeworks.homework4.task2.tools.cars.DieselCar;
 import org.example.homeworks.homework4.task2.tools.cars.ElectricCar;
 import org.example.homeworks.homework4.task2.tools.MyConfig;
 import org.example.homeworks.homework4.task2.tools.cars.ExrCar;
@@ -16,6 +17,8 @@ public class Main {
         ExrCar car1 = context.getBean("ExrCarBean", ExrCar.class);
         System.out.println(car1);
 
+        DieselCar car2 = context.getBean("DieselCarBean", DieselCar.class);
+        System.out.println(car2);
     }
 }
 

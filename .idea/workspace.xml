@@ -7,40 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework1 was changed">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task1/EventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task1/handlersu/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task1/handlersu/EventProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task1/handlersu/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework2/task2/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task1/tools/SmsSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ElectricCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ExrCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/ElectricEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/GasEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessons/lesson_20240109/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessons/lesson_20240109/ColorCash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/ConstantsTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/ConstantsTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/json/JsonConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/json/JsonConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework1/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework1/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/Homework2/test.java" beforeDir="false" />
+    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework2 was added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/DieselEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/DieselEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725122109765</updated>
-      <workItem from="1726151237781" duration="6015000" />
+      <workItem from="1726151237781" duration="6514000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1 is added">
       <option name="closed" value="true" />
@@ -176,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725617570264</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework2 was added">
+      <option name="closed" value="true" />
+      <created>1726158442296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726158442296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework1 is added" />
     <MESSAGE value="Homework1 was changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework1 was changed" />
+    <MESSAGE value="Homework2 was added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework2 was added" />
   </component>
 </project>
