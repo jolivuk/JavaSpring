@@ -1,9 +1,9 @@
-package org.example.homeworks.homework3.task2;
+package org.example.homeworks.homework4.task2;
 
-import org.example.homeworks.homework3.task2.tools.cars.DieselCar;
-import org.example.homeworks.homework3.task2.tools.cars.ElectricCar;
-import org.example.homeworks.homework3.task2.tools.MyConfig;
-import org.example.homeworks.homework3.task2.tools.cars.ExrCar;
+import org.example.homeworks.homework4.task2.tools.cars.DieselCar;
+import org.example.homeworks.homework4.task2.tools.cars.ElectricCar;
+import org.example.homeworks.homework4.task2.tools.MyConfig;
+import org.example.homeworks.homework4.task2.tools.cars.ExrCar;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {

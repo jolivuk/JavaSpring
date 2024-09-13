@@ -8,5 +8,5 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <context:component-scan base-package="org.example.homeworks.homework3.task1"/>
+    <context:component-scan base-package="org.example.homeworks.homework4.task1"/>
 </beans>

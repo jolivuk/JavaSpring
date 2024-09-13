@@ -1,4 +1,4 @@
-package org.example.homeworks.homework3.task1.tools;
+package org.example.homeworks.homework4.task1.tools;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
