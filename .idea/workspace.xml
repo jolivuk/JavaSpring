@@ -7,17 +7,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework4 changed on homework3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/Dev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/EmailNotificationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/SmsNotificationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/interfaces/EmailNotificationSerivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework3_Spring1/interfaces/SmsNotificationSerivce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext20240906.xml" afterDir="false" />
+    <list default="true" id="9d517c8e-3f70-4ea1-96eb-031045625240" name="Changes" comment="Homework3 Spring 1 is added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lessons/lesson_20240915/property_injection/Dev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext_propertyInjection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext_task2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/configuration/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/DieselCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ExrCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/cars/ExrCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/ElectricEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/ElectricEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/GasEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/homeworks/homework4/task2/tools/engine/GasEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,12 +57,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/33659/IdeaProjects/JAVAEXTRA_Homeworks",
+    "last_opened_file_path": "C:/Users/33659/IdeaProjects/JAVAEXTRA_Homeworks/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "configurable.tailwindcss",
     "vue.rearranger.settings.migration": "true"
@@ -76,7 +80,7 @@
       <recent name="org.example.homeworks.Homework1.json" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Dev">
+  <component name="RunManager" selected="Application.org.example.homeworks.homework4.task2.Main">
     <configuration name="Dev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.homeworks.homework3_Spring1.Dev" />
       <module name="JAVAEXTRA_Homeworks" />
@@ -131,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dev" />
-        <item itemvalue="Application.org.example.homeworks.homework4.task1.tools.Main" />
         <item itemvalue="Application.org.example.homeworks.homework4.task2.Main" />
+        <item itemvalue="Application.org.example.homeworks.homework4.task1.tools.Main" />
+        <item itemvalue="Application.Dev" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -155,7 +159,8 @@
       <option name="presentableId" value="Default" />
       <updated>1725122109765</updated>
       <workItem from="1726151237781" duration="9887000" />
-      <workItem from="1726216743041" duration="5781000" />
+      <workItem from="1726216743041" duration="9453000" />
+      <workItem from="1726468452932" duration="1717000" />
     </task>
     <task id="LOCAL-00001" summary="Homework1 is added">
       <option name="closed" value="true" />
@@ -205,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726217287816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Homework3 Spring 1 is added">
+      <option name="closed" value="true" />
+      <created>1726223592905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726223592905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +230,8 @@
     <MESSAGE value="Homework2 was added" />
     <MESSAGE value="Homework3 was added" />
     <MESSAGE value="Homework4 changed on homework3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework4 changed on homework3" />
+    <MESSAGE value="Homework3 Spring 1 is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework3 Spring 1 is added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

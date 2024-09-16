@@ -5,12 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("exrCarBean")
+@Component("exrCar")
 public class ExrCar extends Car{
     private Engine engine;
 
     @Autowired
-    public ExrCar(@Qualifier("GasEngineBean") Engine engine) {
+    public ExrCar(@Qualifier("gasEngine") Engine engine) {
         super(engine);
     }
 

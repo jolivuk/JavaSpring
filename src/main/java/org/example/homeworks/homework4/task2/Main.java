@@ -2,22 +2,24 @@ package org.example.homeworks.homework4.task2;
 
 import org.example.homeworks.homework4.task2.tools.cars.DieselCar;
 import org.example.homeworks.homework4.task2.tools.cars.ElectricCar;
-import org.example.homeworks.homework4.task2.tools.MyConfig;
+import org.example.homeworks.homework4.task2.tools.configuration.MyConfig;
 import org.example.homeworks.homework4.task2.tools.cars.ExrCar;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(MyConfig.class);
+   //     AnnotationConfigApplicationContext context =
+   //             new AnnotationConfigApplicationContext(MyConfig.class);
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_task2.xml");
 
-        ElectricCar car = context.getBean("electricCarBean", ElectricCar.class);
+        ElectricCar car = context.getBean(ElectricCar.class);
         System.out.println(car);
 
-        ExrCar car1 = context.getBean("exrCarBean", ExrCar.class);
+        ExrCar car1 = context.getBean(ExrCar.class);
         System.out.println(car1);
 
-        DieselCar car2 = context.getBean("dieselCarBean", DieselCar.class);
+        DieselCar car2 = context.getBean(DieselCar.class);
         System.out.println(car2);
 
         context.close();
